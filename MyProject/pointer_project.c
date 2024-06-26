@@ -67,8 +67,8 @@ int main_pointer_project(void) {
 			printf("*** 축 레벨업 ! 기존 %d 레벨에서 %d 레벨로 업그레이드 ***\n\n", level-1, level);
 
 			// 최종레벨 5
-			if (level == 5) 
-				printf("\n\n축하합니다. 최고 레벨을 달성하였습니다. 게임을 종료합니다.\n");
+			if (level == 5) {
+				printf("\n\n축하합니다. 최고 레벨을 달성하였습니다. 게임을 종료합니다.\n", level-1, level);
 				exit(0);
 			}
 		}
